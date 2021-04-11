@@ -15,7 +15,7 @@ setTimeout(() => {
   events.on('in-transit', (data) => {
     console.log('in-transit', data);
   });
-}, 900);
+}, 2000);
 events.on('delivered', () => {
   console.log('Thank you');
 });

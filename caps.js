@@ -5,5 +5,5 @@ require('./driver.js');
 require('./vendor.js');
 
 events.on('pickup', (payload) => {
-  console.log('order have been placed :)', payload);
+  console.log('New order have been placed :)', payload);
 });

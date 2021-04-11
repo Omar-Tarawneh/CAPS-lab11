@@ -4,7 +4,7 @@ let payload;
 setTimeout(() => {
   events.on('pickup', (data) => {
     payload = data;
-    console.log(`DRIVER: picked up ${data.orderID}`);
+    console.log(`DRIVER: picked up the order with th ID: ${data.orderID}`);
     events.emit('in-transit', data);
 
     setTimeout(() => {

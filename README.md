@@ -16,4 +16,4 @@ To test the app follow the following instruction:
 - In the terminal type `npm install`
 - Then type `npm start` to start the app.
 
-Note: waite for 3 seconed in the terminal because each order have 3 second time gap between them. :)
+Note: waite for 5 seconed in the terminal because each order have 5 second time gap between them. :)
